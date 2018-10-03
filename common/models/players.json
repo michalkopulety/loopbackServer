@@ -1,0 +1,47 @@
+{
+  "name": "players",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "jerseyNumber": {
+      "type": "number"
+    },
+    "facrId": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "hashId": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "facrLink": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

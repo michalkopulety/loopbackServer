@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cash_desk": {
+    "host": "ds046037.mlab.com",
+    "port": 46037,
+    "database": "cash_desk",
+    "password": "${MONGO_PASS}",
+    "name": "cash_desk",
+    "user": "${MONGO_USER}",
+    "connector": "mongodb"
+  }
+}
